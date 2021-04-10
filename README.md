@@ -20,11 +20,11 @@
 ## Medium
 
 * [Simple Banking System](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Banking%20System/Simple%20Banking%20System/task/tests.py)
- <tag>#sql</tag>
+ ```#sql```
 * [Web Scraper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Scraper/Web%20Scraper/task/scraper.py)
- <tag>#html #json #BeautifulSoup #xml</tag>
+ ```#html #json #BeautifulSoup #xml```
 * [Web Calendar](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Calendar/Web%20Calendar/task/app.py)
- <tag>#flask #restful #flask-sqlalchemy #json #sql</tag>
+ ```#flask #restful #flask-sqlalchemy #json #sql```
 * Rock-Paper-Scissors
 * Knight's Tour Puzzle
 * Food Blog Backend
