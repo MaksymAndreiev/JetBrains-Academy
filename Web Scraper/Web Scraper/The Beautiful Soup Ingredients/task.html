@@ -1,0 +1,52 @@
+<h2>Theory</h2>
+
+<p>Some Internet pages might get automatically translated according to your computer's settings. Although this might be useful in everyday life, in this project we ask you to output the data in English. To force <code class="language-python">requests</code> library to return a page in English, you can use <code class="language-python">headers</code> with <code class="language-python">Accept-Language</code> parameter set to the value <code class="language-python">en-US,en;q=0.5</code>:</p>
+
+<pre><code class="language-python">response = requests.get(url, headers={'Accept-Language': 'en-US,en;q=0.5'})</code></pre>
+
+<p>Note that the structure of the page might be different in cases when you use this header and when you don't (even if your default language is English). </p>
+
+<h2>Description</h2>
+
+<p>We know how to send HTTP requests and get responses. In the previous stage, the example URL responded with the <code class="language-python">json</code> body, this is how the <code class="language-python">REST</code> resources communicate with a client. We, humans, go to websites to access the Internet. We also have browsers, but sometimes we need to parse the website's content automatically. Parsing<em> </em>is one of the ways to scrape<em> </em>a webpage.</p>
+
+<p>Parsing website data begins with the<em> </em>inspection<em> </em>of the page source code with browser built-in tools. Usually, the desired information can be distinguished by some unique attributes or a set of attributes, for example, a <code class="language-python">css class</code> name. We need to determine these attributes and then make our parsing tool (in our case, the <strong>beautifulsoup</strong> library) do the magic for us. </p>
+
+<h2>Objectives</h2>
+
+<ol>
+	<li>Feed your program a link to a movie description. This is an example of a correct link: <code class="language-python">https://www.imdb.com/title/tt0080684/</code>.</li>
+	<li>Inspect the page and find out how the movie's title and description are stored in the source code.</li>
+	<li>Download the webpage content, parse it using the beautifulsoup library, and print out the movie's original title and description in a dictionary.</li>
+</ol>
+
+<p>If the received page doesn't have a movie description or is not an IMDb<strong> </strong>resource, the program should respond with the <code class="language-python">Invalid movie page!</code> message, just like in the previous stage.</p>
+
+<h2>Examples</h2>
+
+<p>A user inputs a URL with a movie description to store it in the response dictionary. If the link is not correct or does not contain a movie original title and description, the program responds with an error message.</p>
+
+<p>The greater-than symbol followed by a space (<code class="language-python">&gt; </code>) represents the user input. Note that it's not part of the input. Each example corresponds to a separate execution.</p>
+
+<p><strong>Example 1</strong></p>
+
+<pre><code class="language-no-highlight">Input the URL:
+&gt; https://www.imdb.com/title/tt0080684/
+
+{"title": "Star Wars: Episode V - The Empire Strikes Back", "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader and a bounty hunter named Boba Fett all over the galaxy."}
+</code></pre>
+
+<p><strong>Example 2</strong></p>
+
+<pre><code class="language-no-highlight">Input the URL:
+&gt; https://www.imdb.com/name/nm0001191/
+
+Invalid movie page!
+</code></pre>
+
+<p><strong>Example 3</strong> </p>
+
+<pre><code class="language-no-highlight">Input the URL:
+&gt; https://www.google.com/
+
+Invalid movie page!</code></pre>

@@ -1,0 +1,48 @@
+<h2>Theory</h2>
+
+<p>Apart from writing files in the usual text mode, it is also possible to write files in binary mode. It means that Python won't encode the data while writing it to the file. This can be done by passing the argument <code class="language-python">"wb"</code> to the <code class="language-python">open()</code> function instead of the usual <code class="language-python">"w"</code>:</p>
+
+<pre><code class="language-python">file = open('file.html', 'wb')</code></pre>
+
+<p>To retrieve a page's content while using <code class="language-python">requests</code> library, <code class="language-python">content</code> attribute can be used:</p>
+
+<pre><code class="language-python">page_content = requests.get(inp_url).content</code></pre>
+
+<p>Please, use these bits of knowledge in your code for this stage.</p>
+
+<h2>Description</h2>
+
+<p>In previous stages, we retrieved the results and printed them out on the screen. It's handy for one-time running programs or for debugging, but if we want to reuse the data (and that's the case most of the time), storing it is more effective. The simplest way to store data is to write it to a file on your computer.</p>
+
+<p>In this stage, we are going to store the state of a webpage at the moment when the program is executed. It means that we need to get its source code, the content, and save it to an <em>.html</em> file. </p>
+
+<h2>Objectives</h2>
+
+<ol>
+	<li>Create a program that retrieves the page's source code from a user input URL. Please, don't decode the page's content.</li>
+	<li>Save the page's content to the <code class="language-python">source.html</code><strong> </strong>file. Please, write the file in binary mode.</li>
+	<li>Print the <code class="language-python">Content saved.</code> message if everything is OK (Don't forget to add a check for the <code class="language-python">status_code</code>).</li>
+	<li>If something is wrong, print the message <code class="language-python">The URL returned X</code>, where <code class="language-python">X</code> is the received error code.</li>
+</ol>
+
+<h2>Examples</h2>
+
+<p>The program receives a URL to retrieve the data from the user input, saves the data to the <em>source.html</em> file, and responds with the successful completion message. Otherwise, it should notify a user about an error.</p>
+
+<p>The greater-than symbol followed by a space (<code class="language-python">&gt; </code>) represents the user input. Note that it's not part of the input. Each example corresponds to a separate execution.</p>
+
+<p><strong>Example 1</strong></p>
+
+<pre><code class="language-no-highlight">Input the URL:
+&gt; https://www.facebook.com/
+
+Content saved.
+</code></pre>
+
+<p><strong>Example 2</strong> </p>
+
+<pre><code class="language-no-highlight">Input the URL:
+&gt; http://google.com/asdfg
+
+The URL returned 404!
+</code></pre>

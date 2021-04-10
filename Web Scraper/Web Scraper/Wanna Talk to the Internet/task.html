@@ -1,0 +1,34 @@
+<h2>Description</h2>
+
+<p>We use the Internet everyday. Have you ever wondered how your computer communicates with the Global Web? In this stage, we'll learn how to talk to the Internet from your Python script — and interpret the replies! Your program should send an HTTP request to a URL received from the user input. The user input can be a Quotable resource <code class="java">http://api.quotable.io/quotes/-CzNrWMGIg8V</code>. In this case, the program should print out the Quote extracted from the <code class="java">json</code> body response.</p>
+
+<p>The user input may also contain an invalid URL or a non-existing quote resource, for example, <code class="java">http://api.quotable.io/quotes/1</code>, or a different Quotable page (<code class="java">http://api.quotable.io/authors</code>). Use <code class="java">if-else</code> statements to check the <code class="java">status_code</code> or the <code class="java">json </code>body response to print out the <code class="java">Invalid quote resource!</code> error message when the response code is different from 200, or when there is no quote in the <code class="java">json</code> body response. Your program should ask for input. </p>
+
+<h2>Objectives</h2>
+
+<p>In this stage, your program should: </p>
+
+<ol>
+	<li>Send an HTTP request to a URL received from the user input.</li>
+	<li>Print out the Quote content extracted from the <code class="java">json</code> body response.</li>
+	<li>Print out the <code class="java">Invalid quote resource!</code> error message if there's no quote or something goes wrong.</li>
+</ol>
+
+<h2>Examples</h2>
+
+<p>The greater-than symbol followed by space (<code class="java">&gt; </code>) represents the user input. Note that it's not part of the input.</p>
+
+<p><strong>Example 1</strong></p>
+
+<pre><code class="language-no-highlight">Input the URL:
+&gt; http://api.quotable.io/quotes/-4WQ_JwFWI
+
+The three great essentials to achieve anything worth while are: Hard work, Stick-to-itiveness, and Common sense.
+</code></pre>
+
+<p><strong>Example 2</strong> </p>
+
+<pre><code class="language-no-highlight">Input the URL:
+&gt; http://api.quotable.io/quotes/asdfgh
+
+Invalid quote resource!</code></pre>

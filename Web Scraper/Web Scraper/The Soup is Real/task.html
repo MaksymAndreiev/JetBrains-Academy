@@ -1,0 +1,25 @@
+<h2>Description</h2>
+
+<p>We now have a good deal of knowledge and experience, so let's put it all together and create your first real web scraper. Most of the time, the reason why people create parse-and-scrape programs is to automate the routine tasks of retrieving large data from a website. For example, every machine learning task requires some <strong>train data</strong><em>. </em>Let's imagine you're doing research based on the recent science news. For that research, you'll need to have the most recent articles with the type "News" that are posted on the Nature journal website. Each article should be saved to a separate <em>.txt</em> file named after the article's title.</p>
+
+<h2>Objectives</h2>
+
+<ol>
+	<li>Create a program that takes the <code class="java">https://www.nature.com/nature/articles</code> URL and then goes over the page source code searching for articles.</li>
+	<li>Detect the article type<em> </em>and the link to view<em> </em>the article<em> </em>tags and their attributes.</li>
+	<li>Save the contents of each article of the type "News" to a separate file named <em>%article_title%.txt</em>. Replace the whitespaces with underscores and remove punctuation marks in the filename (<code class="java">str.maketrans</code> and <code class="java">string.punctuation</code> will be useful for this). Also, strip<strong><em> </em></strong>all trailing whitespaces in the article body and title.</li>
+	<li>(Optional) You may output some result message once the saving is done, but it is not required.</li>
+</ol>
+
+<p>We need to inspect<em> </em>each article to find the tags that represent the article's contents. If you take a closer look at the source code, you will see that every article is enclosed in a pair of <code class="java">&lt;article&gt;</code> tags. Then, each article type is hidden inside a <code class="java">&lt;span&gt;</code> tag containing the <code class="java">data-test</code> attribute with the <code class="java">article.type</code> value.<strong> </strong>Also, every article includes a link to the article's contents, which is placed inside the <code class="java">&lt;a&gt;</code> tag with the <code class="java">data-track-action="view article"</code> attribute. Once the article page is loaded, save its body wrapped in the <code class="java">&lt;div&gt;</code> tag (look for "body<em>" </em>in the <code class="java">class</code><em> </em>attribute<em>). </em></p>
+
+<p><div class="alert alert-primary"> Make sure your output file is binary with the UTF-8 character encoding. </div></p>
+
+<h2>Example</h2>
+
+<p>This time, the program should not take the URL from the input: hard-code it inside the program. Below is an example of the output:</p>
+
+<pre><code class="language-no-highlight">Saved articles:  ['COVID_research_updates_Immune_responses_to_coronavirus_persist_beyond_6_months.txt', 'What_scientists_really_think_about_the_ethics_of_facial_recognition_research.txt', 'Legendary_Arecibo_telescope_will_close_forever_scientists_are_reeling.txt', 'What_the_data_say_about_asymptomatic_COVID_infections.txt']
+</code></pre>
+
+<p>The main goal is to save the articles with the correct article bodies once the program has been executed.</p>

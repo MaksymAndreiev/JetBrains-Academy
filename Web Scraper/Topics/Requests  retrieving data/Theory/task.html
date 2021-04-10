@@ -1,0 +1,87 @@
+<html>
+ <head></head>
+ <body>
+  <p>This topic is an introduction to <code class="language-python">requests</code>, an elegant and simple HTTP library for Python.</p> 
+  <p><strong>Hypertext Transfer Protocol (HTTP)</strong> is arguably the most popular application protocol used on the Internet. It allows for communication between HTTP clients (e.g., web browsers) and HTTP servers (web servers) by sending text messages: the client sends a <strong>request</strong> message to the server which, in turn, returns a <strong>response </strong>message.</p> 
+  <p>Python <code class="language-python">requests</code> allows you to send all kinds of requests and get the responses to them in an easy and intuitive way. Don't forget that it's not in the standard library, and therefore you might need to install it by typing <code class="language-python">pip install requests</code> in your command line.</p> 
+  <p>To start using <code class="language-python">requests</code> in your code, import the library:</p> 
+  <pre><code class="language-python">import requests</code></pre> 
+  <h2 style="text-align: center;">Making a GET request</h2> 
+  <p>The <strong>GET</strong> request is used to retrieve information from the given server using a URL. For example, whenever you enter a URL in the address box of your browser, it translates it into a <strong>GET</strong> request message and sends it to the server.</p> 
+  <p>Imagine we need to get the <a target="_blank" href="https://requests.readthedocs.io/en/master/" rel="noopener noreferrer nofollow">main page</a> of the official website of the <code class="language-python">requests</code> library. We can do so with the help of <code class="language-python">requests.get(url)</code> as follows:</p> 
+  <pre><code class="language-python">r = requests.get('https://requests.readthedocs.io/en/master/')
+print(r)
+
+# &lt;Response [200]&gt;</code></pre> 
+  <p>This returns a <strong>response </strong>object <code class="language-python">r</code> containing all the necessary information about the response of the server. Note that 200 is a standard HTTP code indicating that the request succeeded, while code 404 means that the resource you were looking for was not found. You can explicitly access the response code in the <code class="language-python">status_code</code> attribute of the response object:</p> 
+  <pre><code class="language-python">print(r.status_code)
+
+# 200</code></pre> 
+  <p>If you use a <code class="language-python">response</code> object in an <code class="language-python">if</code> statement, it will evaluate to <code class="language-python">True</code> if the status code starts with the digits 2 (request was accepted) or 3 (redirection), and <code class="language-python">False</code> otherwise:</p> 
+  <pre><code class="language-python">if r:
+    print('Success!')
+else:
+    print('Fail')
+
+# Success!</code></pre> 
+  <p>To read the content of the server’s response, look at the <code class="language-python">text</code> property:</p> 
+  <pre><code class="language-python">r.text
+
+# '\n&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n ...
+# ...</code></pre> 
+  <p>Note that <code class="language-python">requests</code> automatically decodes the content of the response from the server. You can find out what encoding is being used and change it, if necessary, using the <code class="language-python">encoding</code> property:</p> 
+  <pre><code class="language-python">r.encoding
+
+# 'ISO-8859-1'</code></pre> 
+  <p>Other useful information, e.g., content type, is stored in the response headers. To view them, access <code class="language-python">.headers</code>:</p> 
+  <pre><code class="language-python">r = requests.get('https://requests.readthedocs.io/en/master/')
+print(r.headers)
+
+# {'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html', 'Content-Encoding': 'gzip', 
+#  'Last-Modified': 'Thu, 09 Jan 2020 17:56:10 GMT', 'ETag': 'W/"5e17693a-b523"', 'Vary': 
+#  'Accept-Encoding', 'Server': 'nginx', 'X-Subdomain-TryFiles': 'True', 'X-Served': 'Nginx', 
+#  'X-Deity': 'web03', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 
+#  'Date': 'Thu, 16 Jan 2020 13:31:20 GMT'}</code></pre> 
+  <p>A dictionary-like object is returned, so you can access the header value you need by its key. Note that the headers are case-insensitive, meaning you don't have to worry about their capitalization:</p> 
+  <pre><code class="language-python">r.headers['Content-Type']
+
+# 'text/html'
+
+# This work just fine as well
+r.headers['content-type']
+
+# 'text/html'</code></pre> 
+  <h2 style="text-align: center;">Query parameters</h2> 
+  <p>A <strong>query string</strong> is a convention for appending key-value pairs to a URL. It's separated from the standard URL with a question mark sign <code class="language-python">?</code> and contains key-value pairs. Each key is separated from the value by an equality sign <code class="language-python">=</code>, while the pairs are separated by an ampersand <code class="language-python">&amp;</code>.</p> 
+  <p>Query strings can include fields added to a base URL by the browser or other client applications. How these parameters are used is up to the server-side application. For example, <a target="_blank" href="http://www.python.org/search/" rel="noopener noreferrer nofollow">https://www.python.org/search/</a> is a search page of the official Python website. If you search for 'requests' there, the results will be displayed on the page with the URL <a target="_blank" href="http://www.python.org/search/?q=requests" rel="noopener noreferrer nofollow">https://www.python.org/search/<strong>?q=requests</strong></a>.</p> 
+  <p>When using <code class="language-python">requests</code>, there’s no need to manually add query strings to your URLs. The library allows you to provide these arguments as a dictionary of strings using the <code class="language-python">params</code> keyword argument when making a request:</p> 
+  <pre><code class="language-python"># The dictionary of the query parameters
+params = {'q': 'requests'}
+
+# This request will get the page with the results of the search for 'requests'
+# on the official Python website:
+r = requests.get('http://python.org/search', params=params)</code></pre> 
+  <p>If you need to send similar requests multiple times in your project, it makes sense to define a special function for that. For example, <code class="language-python">google_search(query, num)</code> returns a URL to the page containing <code class="language-python">num</code> Google search results for a given <code class="language-python">query</code> :</p> 
+  <pre><code class="language-python">def google_search(query, num):
+    r = requests.get('https://google.com/search',
+                     params={'q': query, 'num': num})
+    return r.url
+
+
+print(google_search('python', 1))
+
+# https://www.google.com/search?q=python&amp;num=1</code></pre> 
+  <p></p>
+  <div class="alert alert-primary">
+   Unfortunately, a lot of requests to Google can lead to banning. Try to be attentive when sending multiple requests!
+  </div>
+  <p></p> 
+  <h2 style="text-align: center;">Conclusions</h2> 
+  <ul> 
+   <li><code class="language-python">requests</code> is a Python library for making HTTP requests.</li> 
+   <li>GET request <code class="language-python">requests.get()</code> is used to retrieve the data from the server.</li> 
+   <li>To provide additional parameters to the server with your GET request, use a query string.</li> 
+   <li>A query string can be passed to <code class="language-python">requests.get()</code> as a dictionary of key-value pairs.</li> 
+  </ul>
+ </body>
+</html>

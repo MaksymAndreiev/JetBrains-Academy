@@ -1,0 +1,17 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import requests
+
+
+    def get_content_type(url):
+        pass
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8609#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 01 Apr 2021 09:52:30 UTC
+record: -1
