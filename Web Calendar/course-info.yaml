@@ -1,0 +1,10 @@
+type: hyperskill
+title: Web Calendar
+language: English
+summary: Afraid to miss something interesting? Don't worry, you won't! Create an app
+  that will save all your events to the database. You will access the events with
+  the help of REST endpoints.<br/><br/>Learn more at <a href="https://hyperskill.org">https://hyperskill.org/projects/170</a>
+programming_language: Python
+content:
+- Web Calendar
+mode: Study
