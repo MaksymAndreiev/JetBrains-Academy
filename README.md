@@ -38,6 +38,7 @@
 * Easy Rider Bus Company
 * Text-Based Browser
 * [To-Do List](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/To-Do%20List/To-Do%20List/task/todolist/todolist.py)
+ ```#sqlalchemy```
 * Text Generator
 * Memorization Tool
 * Weather App
