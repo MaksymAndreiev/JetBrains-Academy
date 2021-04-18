@@ -30,6 +30,7 @@
 * Food Blog Backend
 * University Admission Procedure
 * Numeric Matrix Processor
+* Bill Splitter
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
 
