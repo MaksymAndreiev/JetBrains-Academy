@@ -1,0 +1,50 @@
+<html>
+ <head></head>
+ <body>
+  <p>Even though invoking functions in Python is not about casting a spell or the like, it does sometimes work wonders. Let's start with the concept. Basically, a <strong>function</strong> is a structured fragment of code we may want to use in more than one place and more than one time. For another thing, functions allow us to read both our code and that of someone else way better. Haven't they become your favorite yet?</p> 
+  <p>Here is a simple function call:</p> 
+  <p><code class="language-python">multiply(1, 7)</code></p> 
+  <p>Here <code class="language-python">multiply</code> is the name of the function, and numbers in parentheses <code class="language-python">(1, 7)</code> are its <strong>arguments</strong>. What is an argument? Well, it's just a value, that will be used inside the body of the function. Let's go deeper into it!</p> 
+  <h2 style="text-align: center;">Invoking print()</h2> 
+  <p>To <strong>call</strong>, or <strong>invoke</strong>, <strong>a function</strong> in your program, simply write its name and add parentheses after it. That's all it takes! Fun fact: if you've ever typed an expression like this <code class="language-python">print("Hello, world!")</code>, you already know a little about functions. In this tiny example, however, we see the message <samp>"Hello, world!"</samp> in the parentheses after the name of the <code class="language-python">print</code> function. What does it mean? This string is just an argument. And more often than not, functions do have arguments. As for the <code class="language-python">print</code> function, we may as well use it with no argument at all or even with multiple arguments:</p> 
+  <pre><code class="language-python">print("Hello, world!")
+print()
+print("Bye,", "then!")</code></pre> 
+  <p>And here is the output:</p> 
+  <pre><code class="language-python">Hello, world!
+
+Bye, then!</code></pre> 
+  <p>So, the first call prints<strong> </strong>one string, the second call of <code class="language-python">print</code> without arguments prints, in fact, an empty line, and the last call outputs our two messages as one expression. Are you surprised by these results? Then you may learn how the <code class="language-python">print</code> function works in more detail from its <a target="_blank" href="https://docs.python.org/3/library/functions.html#print" rel="noopener noreferrer nofollow">documentation</a>. The Python documentation contains all sorts of information about the function of your interest, for example, which arguments it expects.</p> 
+  <h2 style="text-align: center;">Built-in functions</h2> 
+  <p>Functions can make life easier, provided one is aware of their existence. Many algorithms are already written, so there is no need for reinvention, except perhaps for educational purposes. The Python interpreter has a number of functions and types <strong>built into</strong> it, so they are always available. Currently, the number of <a target="_blank" href="https://docs.python.org/3/library/functions.html" rel="noopener noreferrer nofollow">built-in functions amounts to 69</a> (in the latest version <strong>Python 3.8</strong>). Some of them are used to convert the <strong>object type</strong>, for example, <code class="language-python">str()</code> returns a string, <code class="language-python">int()</code> returns an integer, <code class="language-python">float()</code> returns a floating-point number. Others deal with <strong>numbers</strong>: you can <code class="language-python">round()</code> them and <code class="language-python">sum()</code> them, find the minimum <code class="language-python">min()</code> or the maximum <code class="language-python">max()</code>. Still others give us information about the object: its <code class="language-python">type()</code> or length <code class="language-python">len()</code>. Let's consider them in action!</p> 
+  <p>In the following example, <code class="language-python">len()</code> counts the number of characters in the string (the same goes for any <strong>sequence</strong>).</p> 
+  <pre><code class="language-python">number = "111"
+
+# finding the length of an object
+print(len(number))  # 3</code></pre> 
+  <p>Then we declare the variables <code class="language-python">integer</code> and <code class="language-python">float_number</code> and write their sum into <code class="language-python">my_sum</code>. By the way, the <code class="language-python">sum()</code> function also deals with sequences.</p> 
+  <pre><code class="language-python"># converting types
+integer = int(number)
+float_number = float(number)
+print(str(float_number))  # "111.0"
+
+# adding and rounding numbers
+my_sum = sum((integer, float_number))</code></pre> 
+  <p> The result is a floating-point number, which becomes clear after printing <code class="language-python">my_sum</code>.</p> 
+  <pre><code class="language-python">print(my_sum)  # 222.0
+print(round(my_sum))  # 222</code></pre> 
+  <p>Furthermore, you can see how to find the minimum and maximum values: the smallest number equals <samp>111</samp> and the largest number <samp>222.0</samp> belongs to floats . </p> 
+  <pre><code class="language-python"># finding the minimum and the maximum
+print(min(integer, float_number))  # 111
+print(type(max(integer, float_number, my_sum)))  # &lt;class 'float'&gt;</code></pre> 
+  <p> There is far more to explore, but let's sum it up.</p> 
+  <h2 style="text-align: center;">Recap</h2> 
+  <p>The beauty of functions is that we can use them without clear insight into their inner structure and how they manage to perform what we need. But if you want to put a function to good use, make sure to check its documentation or try invoking the special function <code class="language-python">help()</code> with the name of the function in question wrapped in parentheses. It may become necessary if, for example, the function does not return any value, writes processed data to a file or prints the output on the screen.</p> 
+  <p>Let's make a brief summary:</p> 
+  <ul> 
+   <li>functions are meant to be reusable, which means we are free to apply it multiple times with different arguments,</li> 
+   <li>to call a function write its name followed by parentheses and place the arguments within,</li> 
+   <li>normally, a function has documentation, which sometimes might be of huge help.</li> 
+  </ul>
+ </body>
+</html>
