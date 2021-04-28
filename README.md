@@ -43,7 +43,7 @@
 * Text Generator
 * Memorization Tool
 * [Weather App](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Weather%20App/Weather%20App/task/web/app.py)
-  ```#flask #jinja #json```
+  ```#flask #jinja #json #sql #sqlite #sqlalchemy```
 * Password Hacker
 * Tic-Tac-Toe with AI
 * Convoy Shipping Company
