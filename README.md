@@ -19,7 +19,7 @@
 
 ## Medium
 
-* [Simple Banking System](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Banking%20System/Simple%20Banking%20System/task/tests.py)
+* [Simple Banking System](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Banking%20System/Simple%20Banking%20System/task/banking/banking.py)
  ```#sql```
 * [Web Scraper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Scraper/Web%20Scraper/task/scraper.py)
  ```#html #json #BeautifulSoup #xml```
