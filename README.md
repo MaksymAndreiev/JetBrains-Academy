@@ -6,21 +6,21 @@
 
 ### Easy
 
-* Simple Chatty Bot
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/Zookeeper/task/animals.py)
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
 
 ### Hard
 
-* Loan Calculator
+* [Loan Calculator](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Loan%20Calculator/)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281544-977f7400-9a47-11eb-8243-377ed0fdc3b1.png" width="100" height="100">
 
 ### Challenging
 
-* Hangman
-* Simple Tic-Tac-Toe
+* [Hangman](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Hangman/)
+* [Simple Tic-Tac-Toe](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Tic-Tac-Toe/)
 
 ## Python Core
 
@@ -28,10 +28,10 @@
 
 ### Easy
 
-* Simple Chatty Bot
-* Loan Calculator
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
+* [Loan Calculator](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Loan%20Calculator/)
 * Honest Calculator
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/Zookeeper/task/animals.py)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281636-1c6a8d80-9a48-11eb-80a0-0b43cd49098d.png" width="100" height="100">
 
@@ -43,14 +43,14 @@
 * University Admission Procedure
 * Duplicate File Handler
 * Arithmetic Exam Application
-* [Web Scraper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Scraper/Web%20Scraper/task/scraper.py)
+* [Web Scraper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Scraper/scraper.py)
   ```#html #json #BeautifulSoup #xml```
 * Dominoes
 * Currency Converter
 * Rock-Paper-Scissors
-* Hangman
-* Simple Tic-Tac-Toe
-* Coffee Machine
+* [Hangman](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Hangman/)
+* [Simple Tic-Tac-Toe](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Tic-Tac-Toe/)
+* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine)
 * Create Glowing Bacteria
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
@@ -80,10 +80,10 @@
 ### Easy
 
 * Currency Converter
-* Simple Chatty Bot
-* Loan Calculator
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
+* [Loan Calculator](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Loan%20Calculator/)
 * Honest Calculator
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/Zookeeper/task/animals.py)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281636-1c6a8d80-9a48-11eb-80a0-0b43cd49098d.png" width="100" height="100">
 
@@ -91,8 +91,7 @@
 
 * Bill Splitter
 * Arithmetic Exam Application
-* Coffee Machine
-*
+* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
 
@@ -104,9 +103,9 @@
 
 ### Challenging
 
-* [Web Calendar](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Calendar/Web%20Calendar/task/app.py)
+* [Web Calendar](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Calendar/app.py)
   ```#flask #restful #flask-sqlalchemy #json #sql```
-* [Weather App](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Weather%20App/Weather%20App/task/web/app.py)
+* [Weather App](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Weather%20App/web/app.py)
   ```#flask #jinja #json #sql #sqlite #sqlalchemy```
 
 ## Django Developer
@@ -116,10 +115,10 @@
 ### Easy
 
 * Currency Converter
-* Simple Chatty Bot
-* Loan Calculator
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
+* [Loan Calculator](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Loan%20Calculator/)
 * Honest Calculator
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/Zookeeper/task/animals.py)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281636-1c6a8d80-9a48-11eb-80a0-0b43cd49098d.png" width="100" height="100">
 
@@ -128,7 +127,7 @@
 * Arithmetic Exam Application
 * Dominoes
 * Rock-Paper-Scissors
-* Coffee Machine
+* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine)
 * Create Glowing Bacteria
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
@@ -154,15 +153,15 @@
 
 ### Easy
 
-* Simple Chatty Bot
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/Zookeeper/task/animals.py)
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281636-1c6a8d80-9a48-11eb-80a0-0b43cd49098d.png" width="100" height="100">
 
 ### Medium
 
 * Dominoes
-* Coffee Machine
+* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine)
 * Generating Randomness
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
@@ -185,10 +184,10 @@
 
 ### Easy
 
-* Simple Chatty Bot
-* Loan Calculator
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
+* [Loan Calculator](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Loan%20Calculator/)
 * Honest Calculator
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/Zookeeper/task/animals.py)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281636-1c6a8d80-9a48-11eb-80a0-0b43cd49098d.png" width="100" height="100">
 
@@ -196,9 +195,9 @@
 
 * Dominoes
 * Currency Converter
-* Hangman
-* Simple Tic-Tac-Toe
-* Coffee Machine
+* [Hangman](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Hangman/)
+* [Simple Tic-Tac-Toe](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Tic-Tac-Toe/)
+* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine)
 * Generating Randomness
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
@@ -206,7 +205,7 @@
 ### Hard
 
 * University Admission Procedure
-* [Web Scraper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Scraper/Web%20Scraper/task/scraper.py)
+* [Web Scraper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Scraper/scraper.py)
   ```#html #json #BeautifulSoup #xml```
 * Rock-Paper-Scissors
 * Create Glowing Bacteria
@@ -222,10 +221,10 @@
 
 ## Deleted projects from old version of Python Developer track
 
-* [To-Do List](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/To-Do%20List/To-Do%20List/task/todolist/todolist.py)
+* [To-Do List](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/To-Do%20List/todolist/todolist.py)
   ```#sqlalchemy```
 * Convoy Shipping Company
-* [Simple Banking System](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Banking%20System/Simple%20Banking%20System/task/banking/banking.py)
+* [Simple Banking System](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Banking%20System/banking/banking.py)
  ```#sql```
 * Food Blog Backend
 * Numeric Matrix Processor
