@@ -1,5 +1,7 @@
 # JetBrains Academy Projects
 
+It's a repository with my solutions of Jetbrains Academy projects. If you have any problems with tasks, feel free to use my code to understand their solution. I will update these projects by adding new projects and adding stages' solutions of existing ones.
+
 ## Python for Beginners
 
 <img src="https://user-images.githubusercontent.com/29687267/114281623-065ccd00-9a48-11eb-86fa-42cb1764a0ae.png" width="100" height="100">
