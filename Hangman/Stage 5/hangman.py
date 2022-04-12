@@ -2,7 +2,7 @@
 import random
 
 print("H A N G M A N\n")
-words = ['python', 'java', 'kotlin', 'javascript']
+words = ['python', 'java', 'swift', 'javascript']
 word = random.choice(words)
 wordh = "-" * len(word)
 
