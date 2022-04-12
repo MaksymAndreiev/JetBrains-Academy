@@ -59,7 +59,7 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 
 ### Hard
 
-* Text Generator
+* [Text Generator](https://github.com/MaksymAndreiev/JetBrains-Academy/tree/main/Text%20Generator)
 * Key Terms Extraction
 * Regex Engine
 * Text-Based Browser
@@ -216,7 +216,7 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 
 ### Challenging
 
-* Text Generator
+* [Text Generator](https://github.com/MaksymAndreiev/JetBrains-Academy/tree/main/Text%20Generator)
 * Key Terms Extraction
 * Easy Rider Bus Company
 * Text-Based Browser
