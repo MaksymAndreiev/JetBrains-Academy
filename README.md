@@ -8,8 +8,8 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 
 ### Easy
 
-* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot/)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
 
@@ -30,10 +30,10 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 
 ### Easy
 
-* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot/)
 * [Loan Calculator](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Loan%20Calculator/)
 * Honest Calculator
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281636-1c6a8d80-9a48-11eb-80a0-0b43cd49098d.png" width="100" height="100">
 
@@ -45,21 +45,21 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 * University Admission Procedure
 * Duplicate File Handler
 * Arithmetic Exam Application
-* [Web Scraper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Scraper/scraper.py)
+* [Web Scraper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Scraper/)
   ```#html #json #BeautifulSoup #xml```
 * Dominoes
 * Currency Converter
 * Rock-Paper-Scissors
 * [Hangman](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Hangman/)
 * [Simple Tic-Tac-Toe](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Tic-Tac-Toe/)
-* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine)
+* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine/)
 * Create Glowing Bacteria
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
 
 ### Hard
 
-* [Text Generator](https://github.com/MaksymAndreiev/JetBrains-Academy/tree/main/Text%20Generator)
+* [Text Generator](https://github.com/MaksymAndreiev/JetBrains-Academy/tree/main/Text%20Generator/)
 * Key Terms Extraction
 * Regex Engine
 * Text-Based Browser
@@ -82,10 +82,10 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 ### Easy
 
 * Currency Converter
-* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot/)
 * [Loan Calculator](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Loan%20Calculator/)
 * Honest Calculator
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281636-1c6a8d80-9a48-11eb-80a0-0b43cd49098d.png" width="100" height="100">
 
@@ -93,7 +93,7 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 
 * Bill Splitter
 * Arithmetic Exam Application
-* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine)
+* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine/)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
 
@@ -105,9 +105,9 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 
 ### Challenging
 
-* [Web Calendar](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Calendar/app.py)
+* [Web Calendar](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Calendar/)
   ```#flask #restful #flask-sqlalchemy #json #sql```
-* [Weather App](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Weather%20App/web/app.py)
+* [Weather App](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Weather%20App/)
   ```#flask #jinja #json #sql #sqlite #sqlalchemy```
 
 ## Django Developer
@@ -117,10 +117,10 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 ### Easy
 
 * Currency Converter
-* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot/)
 * [Loan Calculator](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Loan%20Calculator/)
 * Honest Calculator
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281636-1c6a8d80-9a48-11eb-80a0-0b43cd49098d.png" width="100" height="100">
 
@@ -129,7 +129,7 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 * Arithmetic Exam Application
 * Dominoes
 * Rock-Paper-Scissors
-* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine)
+* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine/)
 * Create Glowing Bacteria
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
@@ -155,15 +155,15 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 
 ### Easy
 
-* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot/)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281636-1c6a8d80-9a48-11eb-80a0-0b43cd49098d.png" width="100" height="100">
 
 ### Medium
 
 * Dominoes
-* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine)
+* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine/)
 * Generating Randomness
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
@@ -186,10 +186,10 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 
 ### Easy
 
-* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot)
+* [Simple Chatty Bot](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Chatty%20Bot/)
 * [Loan Calculator](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Loan%20Calculator/)
 * Honest Calculator
-* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/zookeeper.py)
+* [Zookeeper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Zookeeper/)
 
 <img src="https://user-images.githubusercontent.com/29687267/114281636-1c6a8d80-9a48-11eb-80a0-0b43cd49098d.png" width="100" height="100">
 
@@ -199,7 +199,7 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 * Currency Converter
 * [Hangman](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Hangman/)
 * [Simple Tic-Tac-Toe](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Tic-Tac-Toe/)
-* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine)
+* [Coffee Machine](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Coffee%20Machine/)
 * Generating Randomness
 
 <img src="https://user-images.githubusercontent.com/29687267/114281643-3015f400-9a48-11eb-8b0b-d1e872256a09.png" width="100" height="100">
@@ -207,7 +207,7 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 ### Hard
 
 * University Admission Procedure
-* [Web Scraper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Scraper/scraper.py)
+* [Web Scraper](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Web%20Scraper/)
   ```#html #json #BeautifulSoup #xml```
 * Rock-Paper-Scissors
 * Create Glowing Bacteria
@@ -216,17 +216,17 @@ It's a repository with my solutions of Jetbrains Academy projects. If you have a
 
 ### Challenging
 
-* [Text Generator](https://github.com/MaksymAndreiev/JetBrains-Academy/tree/main/Text%20Generator)
+* [Text Generator](https://github.com/MaksymAndreiev/JetBrains-Academy/tree/main/Text%20Generator/)
 * Key Terms Extraction
 * Easy Rider Bus Company
 * Text-Based Browser
 
 ## Deleted projects from old version of Python Developer track
 
-* [To-Do List](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/To-Do%20List/todolist/todolist.py)
+* [To-Do List](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/To-Do%20List/)
   ```#sqlalchemy```
 * Convoy Shipping Company
-* [Simple Banking System](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Banking%20System/banking/banking.py)
+* [Simple Banking System](https://github.com/MaksymAndreiev/JetBrains-Academy/blob/main/Simple%20Banking%20System/)
  ```#sql```
 * Food Blog Backend
 * Numeric Matrix Processor
